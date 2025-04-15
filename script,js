@@ -1,0 +1,10 @@
+// Apenas um exemplo simples de JavaScript para demonstrar funcionalidade
+// Você pode adicionar aqui comportamentos específicos do seu site.
+
+console.log("Site Portfólio do Sistema Nexo carregado.");
+
+function conhecerSistema() {
+  alert("Você será direcionado para a sessão 'Sobre o Sistema'!");
+  // Rolar suavemente para a seção "sobre"
+  document.getElementById("sobre").scrollIntoView({ behavior: "smooth" });
+}
